@@ -1,0 +1,25 @@
+#main {
+    width: 290px; 
+    height: 294px; 
+    background-color: rgb(36, 36, 36);
+}
+
+input {
+   
+     width: 55px; 
+     height: 36px; 
+     font-size: 30px; 
+     margin: 5px;
+}
+
+ #top {
+    height: 50px; 
+    width:96%; 
+    background-color: beige;
+}
+
+#C {background-color: rgb(136, 39, 39);}
+#a {background-color: rgb(139, 139, 139);}
+#s {background-color: rgb(139, 139, 139);}
+#d {background-color: rgb(139, 139, 139);}
+#m {background-color:rgb(139, 139, 139);}

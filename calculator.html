@@ -1,0 +1,33 @@
+<html>
+    <head> 
+        <link rel="stylesheet" href="calc.css">
+        <script src="calc.js"></script>
+    </head>
+    <body>
+        <div id="main"> 
+            <form name="f"> <br>
+                <input type="text" name="txt" placeholder="0" id="top"> <br> <br>
+                <input type="button" name="bt" value="1" onclick="f.txt.value+=1">
+                <input type="button" name="bt" value="2" onclick="f.txt.value+=2">
+                <input type="button" name="bt" value="3" onclick="f.txt.value+=3">
+                <input type="button" name="bt" value="+" onclick="add()" id="a">
+                <br>
+                <input type="button" name="bt" value="4" onclick="f.txt.value+=4">
+                <input type="button" name="bt" value="5" onclick="f.txt.value+=5">
+                <input type="button" name="bt" value="6" onclick="f.txt.value+=6">
+                <input type="button" name="bt" value="-" onclick="sub()" id="s">
+                <br>
+                <input type="button" name="bt" value="7" onclick="f.txt.value+=7">
+                <input type="button" name="bt" value="8" onclick="f.txt.value+=8">
+                <input type="button" name="bt" value="9" onclick="f.txt.value+=9">
+                <input type="button" name="bt" value="/" onclick="div()" id="d">
+                <br>
+                <input type="button" name="bt" value="C" onclick="f.txt.value=''" id="C">
+                <input type="button" name="bt" value="0" onclick="f.txt.value+=0">
+                <input type="button" name="bt" value="=" onclick="f.txt.value=eval(f.txt.value)">
+                <input type="button" name="bt" value="x" onclick="mul()" id="s">
+                <br>
+            </form>
+        </div>
+    </body>
+</html>
